@@ -42,18 +42,18 @@ h1 {
   background-color: #333;
 }
 
-.menu {
+menu {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-.menu li {
+menu li {
   position: relative;
 }
 
-.menu a {
+menu a {
   display: block;
   padding: 14px 20px;
   color: white;
@@ -61,12 +61,12 @@ h1 {
 }
 
 /* Hover */
-.menu a:hover {
+menu a:hover {
   background-color: #555;
 }
 
 /* Dropdown nascosto */
-.dropdown-content {
+dropdown-content {
   display: none;
   position: absolute;
   background-color: #444;
@@ -76,12 +76,12 @@ h1 {
 }
 
 /* Link nel dropdown */
-.dropdown-content li a {
+dropdown-content li a {
   padding: 10px;
 }
 
 /* Mostra dropdown al passaggio del mouse */
-.dropdown:hover .dropdown-content {
+dropdown:hover .dropdown-content {
   display: block;
 }
 
