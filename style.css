@@ -2,6 +2,14 @@ body {
   background-color: black;
 }
 
+title LOAD {
+  color: white;        /* stesso colore del titolo */
+  text-decoration: none;
+}
+
+title LOAD:hover {
+  text-decoration: underline; /* opzionale */
+}
 h1 {
   color: white;
   text-align: center;
