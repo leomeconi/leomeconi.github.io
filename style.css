@@ -1,19 +1,43 @@
 body {
-  background-color: lightblue;
+  background-color: black;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
+title LOAD {
+  color: white;        /* stesso colore del titolo */
+  text-decoration: none;
+}
+
+title LOAD:hover {
+  text-decoration: underline; /* opzionale */
+}
 h1 {
-  color: black;
+  color: white;
   text-align: center;
+  font-family: "Barlow Condensed";
+
+  height: 100vh; /* altezza pieno schermo */
+  background-image: url("LOAD1.jpg"); /* cambia con il tuo file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
 
 h3 {
-  color: black;
+  color: white;
   text-align: center;
 }
 
 p {
-  font-family: "Comic Sans MS", "Comic Sans";
+  color: white;
+  font-family: "Flame";
   font-size: 20px;
   width: 800px;
   margin: 0 auto;
@@ -24,7 +48,55 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-header
-h1 {
-  font-family: "Papyrus";
+
+/* Navbar base */
+.navbar {
+  background-color: #333;
+}
+
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+menu li {
+  position: relative;
+}
+
+menu a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hover */
+menu a:hover {
+  background-color: #555;
+}
+
+/* Dropdown nascosto */
+dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 160px;
+  list-style: none;
+  padding: 0;
+}
+
+/* Link nel dropdown */
+dropdown-content li a {
+  padding: 10px;
+}
+
+/* Mostra dropdown al passaggio del mouse */
+dropdown:hover .dropdown-content {
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
 }
