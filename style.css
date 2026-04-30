@@ -1,101 +1,95 @@
 body {
   background-color: black;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
-title LOAD {
-  color: white;        /* stesso colore del titolo */
-  text-decoration: none;
-}
-
-title LOAD:hover {
-  text-decoration: underline; /* opzionale */
-}
-h1 {
-  color: white;
-  text-align: center;
-  font-family: "Barlow Condensed";
-
-  height: 100vh; /* altezza pieno schermo */
-  background-image: url("LOAD1.jpg"); /* cambia con il tuo file */
+.hero {
+  height: 100vh;
+  background-image: url("LOAD1.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  color: white;
 }
 
-h3 {
+.hero-title {
+  font-size: 4rem;
   color: white;
   text-align: center;
 }
 
-p {
+.hero-title a {
   color: white;
-  font-family: "Flame";
-  font-size: 20px;
-  width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-decoration: none;
 }
 
-/* Navbar base */
 .navbar {
-  background-color: #333;
+  position: sticky;
+  top: 0;
+  background-color: #111;
+  z-index: 1000;
 }
 
-menu {
+.menu {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
-menu li {
+.menu li {
   position: relative;
 }
 
-menu a {
+.menu a {
   display: block;
-  padding: 14px 20px;
+  padding: 15px 20px;
   color: white;
   text-decoration: none;
 }
 
-/* Hover */
-menu a:hover {
-  background-color: #555;
+.menu a:hover {
+  background-color: #333;
 }
 
-/* Dropdown nascosto */
-dropdown-content {
+.dropdown-content {
   display: none;
   position: absolute;
-  background-color: #444;
+  background-color: #222;
   min-width: 160px;
   list-style: none;
   padding: 0;
 }
 
-/* Link nel dropdown */
-dropdown-content li a {
+.dropdown-content li a {
   padding: 10px;
 }
 
-/* Mostra dropdown al passaggio del mouse */
-dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
+
+section {
+  padding: 100px 20px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 html {
   scroll-behavior: smooth;
