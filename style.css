@@ -4,7 +4,7 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-.hero {
+h1 {
   height: 100vh;
   background-image: url("./LOAD1.jpg");
   background-size: cover;
