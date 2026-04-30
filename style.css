@@ -9,6 +9,7 @@ body {
   background-image: url("LOAD1.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
