@@ -27,6 +27,24 @@ h1 {
   text-decoration: none;
 }
 
+
+
+
+:root {
+  --font-heading: 'Syne', sans-serif;
+}
+
+h1.main-title {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  letter-spacing: -0.02em;
+}
+
+
+
+
+
 .navbar {
   position: sticky;
   top: 0;
