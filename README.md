@@ -8,7 +8,7 @@ First off I changed the basic stuff, like the title, the sections, and I also cl
 
 
 
-### Organizing the page
+### Page organization
 
 The layout of the page is very basic but, as I said in my project proposal, I wanted it to be minimal and clean, just to put the essential things in it. 
 
@@ -21,7 +21,7 @@ I'm going to summarize everything I wrote after each screenshot btw.
 
 
 
-#### ChatGPT screenshots
+### ChatGPT screenshots
 
 ![ChatGPT1](CHATGPT1.png)
 ![ChatGPT2](CHATGPT2.png)
@@ -74,7 +74,7 @@ It was telling me to temporary replace the image with some other links to see if
 After a few attempts I figure that out; I deleted the line `<header class="hero">` by accident and I don't know why but the image went "under" the black background, so it was there but not visible.
 
 
-#### Claude screenshots
+### Claude screenshots
 
 Here the interaction was way smoother and I also liked more its suggestions compared to ChatGPT's. 
 
