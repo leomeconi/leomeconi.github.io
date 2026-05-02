@@ -11,3 +11,4 @@ First off I changed the basic stuff, like the title, the sections, and I also cl
 ### Organizing the page
 
 The layout of the page is very basic but, as I said in my project proposal, I wanted it to be minimal and clean, to put just the essential things in it. 
+
