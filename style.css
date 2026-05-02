@@ -13,8 +13,9 @@ body {
 }
  
 
-h1 {
+h1.title {
   height: 100vh;
+  width: 100%;
   background-image: url("./LOAD1.jpg");
   background-size: cover;
   background-position: center;
@@ -22,17 +23,15 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
- 
-.title {
   font-family: var(--font-heading);
   font-weight: 800;
   font-size: clamp(2.5rem, 8vw, 6rem);
   letter-spacing: -0.02em;
   margin: 0;
+  box-sizing: border-box;
 }
- 
-.title a {
+
+h1.title a {
   color: red;
   text-decoration: none;
 }
