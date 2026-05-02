@@ -1,4 +1,4 @@
-# leomeconi.github.io
+# https://leomeconi.github.io/
 
 For this final project I created a very clean website for my band with some infos about us, links to our music and social media, and photos.
 
