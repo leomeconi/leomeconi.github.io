@@ -1,10 +1,19 @@
+:root {
+  --font-heading: 'Syne', sans-serif;
+}
+ 
+html {
+  scroll-behavior: smooth;
+}
+ 
 body {
   background-color: black;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: var(--font-heading), sans-serif;
 }
+ 
 
-h1 {
+.hero {
   height: 100vh;
   background-image: url("./LOAD1.jpg");
   background-size: cover;
@@ -14,36 +23,20 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
-.hero-title {
-  font-size: 4rem;
-  color: white;
-  text-align: center;
-  margin: 0;
-}
-
-.hero-title a {
-  color: white;
-  text-decoration: none;
-}
-
-
-
-
-:root {
-  --font-heading: 'Syne', sans-serif;
-}
-
-h1.title {
+ 
+.title {
   font-family: var(--font-heading);
   font-weight: 800;
   font-size: clamp(2.5rem, 8vw, 6rem);
   letter-spacing: -0.02em;
+  margin: 0;
 }
-
-
-
-
+ 
+.title a {
+  color: white;
+  text-decoration: none;
+}
+ 
 
 .navbar {
   position: sticky;
@@ -51,7 +44,7 @@ h1.title {
   background-color: #111;
   z-index: 1000;
 }
-
+ 
 .menu {
   list-style: none;
   margin: 0;
@@ -59,58 +52,38 @@ h1.title {
   display: flex;
   justify-content: center;
 }
-
+ 
 .menu li {
   position: relative;
 }
-
+ 
 .menu a {
   display: block;
   padding: 15px 20px;
   color: white;
   text-decoration: none;
 }
-
+ 
 .menu a:hover {
   background-color: #333;
 }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #222;
-  min-width: 160px;
-  list-style: none;
-  padding: 0;
-}
-
-.dropdown-content li a {
-  padding: 10px;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+ 
+ 
 
 section {
   padding: 100px 20px;
 }
-
+ 
 h3 {
   color: white;
   text-align: center;
   font-size: 2rem;
 }
-
+ 
 p {
   color: white;
   font-size: 18px;
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-}
-
-
-html {
-  scroll-behavior: smooth;
 }
