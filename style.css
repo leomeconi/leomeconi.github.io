@@ -15,7 +15,7 @@ body {
 
 .hero {
   height: 100vh;
-  background-image: url("./LOAD1.jpg");
+  background-image: url("LOAD1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
