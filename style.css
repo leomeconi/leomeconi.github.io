@@ -86,3 +86,24 @@ p {
   margin: 0 auto;
   text-align: center;
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.social-links a,
+.social-links a:link,
+.social-links a:visited {
+  color: white;
+  font-size: 4rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: red;
+}
