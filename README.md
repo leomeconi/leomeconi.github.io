@@ -26,20 +26,21 @@ I'm going to summarize everything I wrote after each screenshot btw.
 ![ChatGPT1](CHATGPT1.png)
 ![ChatGPT2](CHATGPT2.png)
 ![ChatGPT3](CHATGPT3.png)
-First off I asked how to add a menu with all the sections, and it gave me all the directions on how to integrate that into my HTML and CSS files.
 
+First off I asked how to add a menu with all the sections, and it gave me all the directions on how to integrate that into my HTML and CSS files.
 
 
 ![ChatGPT4](CHATGPT4.png)
 ![ChatGPT5](CHATGPT5.png)
-I asked where to put the Point 4 of the third image (the code `‹section id="about"›...</section>`), and it gave me the path to follow and the structure of the file.
 
+I asked where to put the Point 4 of the third image (the code `‹section id="about"›...</section>`), and it gave me the path to follow and the structure of the file.
 
 
 ![ChatGPT6](CHATGPT6.png)
 ![ChatGPT7](CHATGPT7.png)
 ![ChatGPT8](CHATGPT8.png)
 ![ChatGPT9](CHATGPT9.png)
+
 Here I wanted to add the main photo of the homepage in full screen size and move all the rest underneath that one.
 
 
@@ -53,12 +54,14 @@ Here I wanted to add the main photo of the homepage in full screen size and move
 ![ChatGPT17](CHATGPT17.png)
 ![ChatGPT18](CHATGPT18.png)
 ![ChatGPT19](CHATGPT19.png)
+
 I was quite happy with the work at this point, so before moving onto the next steps of adding fonts, images and links, I wanted to clean the code up to check if there were issues and to make everything more organized. 
 ChatGPT helped me to find some errors but actually messed some things up after that...
 
 
 ![ChatGPT20](CHATGPT20.png)
 ![ChatGPT21](CHATGPT21.png)
+
 From now on I started getting frustrated because the main photo appeared in a weird way and wanted to fix that.
 At first, it was just scrolling wrongly - I wanted it to scroll like it does now, but before it was scrolling the entire page so the image was dissapearing in the wrong way.
 
@@ -66,17 +69,19 @@ At first, it was just scrolling wrongly - I wanted it to scroll like it does now
 ![ChatGPT22](CHATGPT22.png)
 ![ChatGPT23](CHATGPT23.png)
 ![ChatGPT24](CHATGPT24.png)
-As you can probably tell by my ????? in the question, I was literally just asking why the image disappeared. 
+
+As you can probably tell by my `?????` in the question, I was literally just asking why the image disappeared. 
 From this moment on I actually tried fixing that by myself because the suggestions ChatGPT was giving me were wrong. 
 It was telling me to temporary replace the image with some other links to see if the file was damaged.
 
 
-After a few attempts I figure that out; I deleted the line `<header class="hero">` by accident and I don't know why but the image went "under" the black background, so it was there but not visible.
+After a few attempts I figure that out; I deleted the line `<h1 class="title">LOAD</h1>` by accident and, probably because of this, the image went "under" the black background, so it was there but not visible.
 
 
 ### Claude screenshots
 
 Here the interaction was way smoother and I also liked more its suggestions compared to ChatGPT's. 
+
 
 ![Claude1](CLAUDE1.png)
 ![Claude2](CLAUDE2.png)
@@ -98,6 +103,27 @@ Here the interaction was way smoother and I also liked more its suggestions comp
 ![Claude18](CLAUDE18.png)
 
 
+While working on this part I had the same problem with the main photo and I found out that I deleted the line `<h1 class="title">LOAD</h1>` again. 
+So I was kind of confused because when Claude told me that that part was missing (`Claude10`) I didn't understand why I kept making the same mistake twice. 
+I'd say that this was the most stressful part of the entire project - fix the main page's image twice not realizing that I was wasting time on the same thing of the day before. 
 
-### Sylistic choices
 
+
+### Working on this project
+
+I have to say that I really enjoyed working on this website because for a couple of years I've been wanting to work on something like this, where I could put some material to send to people when they ask to listen to some of our music, social media links, bio...
+I'll try to implement the website in the future with some more stuff and also to make it prettier. 
+
+
+
+### Problems
+
+Apart from the little issue with the image on the front page, I worked pretty well on every part of the project, fixing one thing at a time. 
+The biggest problem I had in the beginning of the work was trying to understand what was supposed to go on the `html` file, and what in the `css`. 
+Also organize the two files was quite hard, especially because I'm a neat freak, so I want everything in my life to be in a maniacal order... it's very stressful sometimes.
+
+In the end I'm very happy of the result - even things I didn't fully understand while I was working on it, now make sense. 
+That's also why I used AI so much, beause I wanted to understand every step without just trying to make things up. 
+Another reason why I used AI a lot is that I was pretty scared to do things that might messed the website up, and this is also why I panicked so much when the image was messed up and the texts were all in different spots.
+
+One thing is certain, I made some big improvements with my patiance, since I had to wait a few minutes everytime i wanted to see a change on the actual website. 
